@@ -5,17 +5,14 @@ function setup() {
   function draw() {
     background(220);
 
-    //case 3 static
+    //case 2 static
     strokeWeight(2);
     fill('white');
-    circle(300, 300, 450);
+    circle(300, 300, 500);
 
     //strokeWeight(1);
-    noFill();
-    circle(450, 300, 150);
-    circle(300, 450, 150);
-    circle(150, 300, 150);
-    circle(300, 150, 150);
+    fill(220);
+    circle(300, 300, 250);
 
     strokeWeight(2);
     line(425, 300, 550, 300);
@@ -27,7 +24,6 @@ function setup() {
     point(425, 300);
     point(550, 300);
 
-    // text
     fill(0);
     strokeWeight(2);
     textSize(20);
@@ -37,3 +33,5 @@ function setup() {
     text('Center', 265, 325);
     text('Radius', 450, 290);
   }
+
+  
