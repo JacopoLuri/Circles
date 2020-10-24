@@ -10,7 +10,7 @@ function draw() {
   background(220);
   translate(300, 300);
 
-  //case 1 static
+  //case 1 animated
   strokeWeight(2);
   circle(0, 0, 300);
 
@@ -52,7 +52,7 @@ function draw() {
   //   y = y +1;
   // };
   
-  time = time + 0.2;
+  time = time + 0.3;
   stroke(0);
   strokeWeight(5);
   let move = map(time, 0, 60, 0, 360)

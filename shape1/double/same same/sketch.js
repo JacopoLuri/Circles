@@ -1,5 +1,4 @@
 let time = 0;
-let timeNeg = 0;
 
 function setup() {
   createCanvas(600, 600);

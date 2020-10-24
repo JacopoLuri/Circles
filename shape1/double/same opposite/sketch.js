@@ -13,12 +13,7 @@ function draw() {
   
   strokeWeight(2);
   circle(0, 0, 300);
-
   
- 
-  
- 
-
   time = time + 0.3;
   timeNeg = timeNeg - 0.3;
   stroke(0);
