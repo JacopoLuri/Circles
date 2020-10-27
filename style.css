@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkgrey;
+    min-width: 1500px;
+    width: 1500px;
+    height: 96vh;
+    border: 5px solid black;
+    margin: 2vh auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-container {
+    background-color: blanchedalmond;
+    min-width: 600px;
+    width: 600px;
+    min-height: 600px;
+    height: 600px;
+    border: 1 px solid black;
+    position: relative;
+}
+
+span {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.position-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.position-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+ 
