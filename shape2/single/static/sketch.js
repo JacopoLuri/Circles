@@ -32,4 +32,6 @@ function setup() {
     text('Inner Ring', 245, 210);
     text('Center', 265, 325);
     text('Radius', 450, 290);
+    save();
+    noLoop();
   }
